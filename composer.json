@@ -2,7 +2,7 @@
     "name": "jshpch/mvc-core",
     "autoload": {
         "psr-4": {
-            "jshpch\\mvccore\\": "."
+            "Mascarade\\Foundations\\Core\\": "."
         }
     },
     "authors": [
