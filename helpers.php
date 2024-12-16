@@ -199,7 +199,7 @@ function config(string $key, $default = null)
     static $config = [];
 
     if (empty($config)) {
-        foreach (glob(__DIR__ . '/../../config/*.php') as $file) {
+        foreach (glob(BASE_PATH . 'config/*.php') as $file) {
             $name = basename($file, '.php');
             $config[$name] = require $file;
         }
@@ -233,7 +233,7 @@ function env(string $key, $default = null)
     static $env = [];
 
     if (empty($env)) {
-        $lines = file(__DIR__ . '/../../.env', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+        $lines = file(BASE_PATH . '.env', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
         foreach ($lines as $line) {
             if (strpos(trim($line), '#') === 0) {
                 continue;
