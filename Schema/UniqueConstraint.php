@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Schema;
+namespace Mascarade\Foundations\Core\Schema;
 
 class UniqueConstraint
 {

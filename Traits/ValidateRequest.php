@@ -1,9 +1,9 @@
 <?php
 
 
-namespace App\Core\Traits;
+namespace Mascarade\Foundations\Core\Traits;
 
-use App\Core\Request;
+use Mascarade\Foundations\Core\Request;
 
 
 trait ValidateRequest
@@ -26,7 +26,7 @@ trait ValidateRequest
      * @param  array  $messages
      * @param  array  $attributes
      * @return array
-     * @param  \App\Core\Request|null  $request
+     * @param  \Mascarade\Foundations\Core\Request|null  $request
      * @return array 
      */
     protected function validate(array $rules): array

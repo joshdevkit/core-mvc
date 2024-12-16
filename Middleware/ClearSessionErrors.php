@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Middleware;
+namespace Mascarade\Foundations\Core\Middleware;
 
 class ClearSessionErrors
 {

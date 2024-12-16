@@ -1,11 +1,11 @@
 <?php
 
-use App\Core\Application;
-use App\Core\Auth;
-use App\Core\Exceptions\MissingRouteParamsException;
-use App\Core\Redirector;
-use App\Core\Response;
-use App\Core\Route;
+use Mascarade\Foundations\Core\Application;
+use Mascarade\Foundations\Core\Auth;
+use Mascarade\Foundations\Core\Exceptions\MissingRouteParamsException;
+use Mascarade\Foundations\Core\Redirector;
+use Mascarade\Foundations\Core\Response;
+use Mascarade\Foundations\Core\Route;
 use Symfony\Component\Security\Csrf\CsrfTokenManager;
 
 /**

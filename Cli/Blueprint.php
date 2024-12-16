@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Cli;
+namespace Mascarade\Foundations\Core\Cli;
 
 class Blueprint
 {
@@ -64,8 +64,8 @@ class Blueprint
         return <<<EOD
 <?php
 
-use App\Core\Cli\Migration;
-use App\Core\Cli\Schema;
+use Mascarade\Foundations\Core\Cli\Migration;
+use Mascarade\Foundations\Core\Cli\Schema;
 
 class $className extends Migration
 {

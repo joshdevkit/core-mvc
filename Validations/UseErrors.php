@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Core\Validations;
+namespace Mascarade\Foundations\Core\Validations;
 
 trait UseErrors
 {

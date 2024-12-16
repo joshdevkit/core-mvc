@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Core\Middleware;
+namespace Mascarade\Foundations\Core\Middleware;
 
 class MiddlewareStack
 {
     protected $middleware = [
-        \App\Core\Middleware\ClearSessionErrors::class,
+        \Mascarade\Foundations\Core\Middleware\ClearSessionErrors::class,
     ];
 
     public function handle($request)

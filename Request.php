@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Core;
+namespace Mascarade\Foundations\Core;
 
-use App\Core\Validations\UseErrors;
-use App\Core\Validations\UseValidationRules;
+use Mascarade\Foundations\Core\Validations\UseErrors;
+use Mascarade\Foundations\Core\Validations\UseValidationRules;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
 use Symfony\Component\Validator\Validation;

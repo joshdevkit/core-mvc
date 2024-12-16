@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Core;
+namespace Mascarade\Foundations\Core;
 
-use App\Core\Middleware\MiddlewareStack;
+use Mascarade\Foundations\Core\Middleware\MiddlewareStack;
 use eftec\bladeone\BladeOne;
 
 class Application

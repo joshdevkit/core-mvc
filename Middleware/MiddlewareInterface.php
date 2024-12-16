@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Middleware;
+namespace Mascarade\Foundations\Core\Middleware;
 
 use Symfony\Component\HttpFoundation\Request;
 

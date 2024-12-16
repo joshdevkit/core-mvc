@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Cli;
+namespace Mascarade\Foundations\Core\Cli;
 
 class Schema
 {

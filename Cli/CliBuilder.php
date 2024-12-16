@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Cli;
+namespace Mascarade\Foundations\Core\Cli;
 
 class CliBuilder
 {
@@ -77,7 +77,7 @@ class CliBuilder
 
 namespace App\Models;
 
-use App\Core\Models;
+use Mascarade\Foundations\Core\Models;
 
 class {$modelName} extends Models
 {
@@ -90,7 +90,7 @@ class {$modelName} extends Models
             global $argv;
             if (in_array('-m', $argv)) {
                 // Change it to  \joshdevjp\mvccore\Cli\Blueprint::createMigration($modelName); when applying dependency
-                \App\Core\Cli\Blueprint::createMigration($modelName);
+                \Mascarade\Foundations\Core\Cli\Blueprint::createMigration($modelName);
             }
         } else {
             echo "Failed to create model `{$modelName}`.\n";

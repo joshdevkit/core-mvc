@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Core\Cli;
+namespace Mascarade\Foundations\Core\Cli;
 
-use App\Core\Schema\Column;
-use App\Core\Schema\ForeignKey;
+use Mascarade\Foundations\Core\Schema\Column;
+use Mascarade\Foundations\Core\Schema\ForeignKey;
 
 class TableBlueprint
 {

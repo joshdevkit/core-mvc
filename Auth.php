@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Core;
+namespace Mascarade\Foundations\Core;
 
-use App\Core\Redirector;
+use Mascarade\Foundations\Core\Redirector;
 use App\Models\User;
 use Exception;
 

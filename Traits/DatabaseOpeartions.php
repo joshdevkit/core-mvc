@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Traits;
+namespace Mascarade\Foundations\Core\Traits;
 
 use Exception;
 

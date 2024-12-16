@@ -1,9 +1,9 @@
 <?php
 
 
-namespace App\Core\Validations;
+namespace Mascarade\Foundations\Core\Validations;
 
-use App\Core\Models;
+use Mascarade\Foundations\Core\Models;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Validator\ConstraintViolationList;
 use Symfony\Component\HttpFoundation\File\UploadedFile;

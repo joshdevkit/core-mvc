@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Core;
+namespace Mascarade\Foundations\Core;
 
-use App\Core\Validations\UseErrors;
+use Mascarade\Foundations\Core\Validations\UseErrors;
 use App\Http\Kernel;
 use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
 use FastRoute\RouteCollector;

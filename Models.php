@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Core;
+namespace Mascarade\Foundations\Core;
 
-use App\Core\Traits\DatabaseOpeartions;
+use Mascarade\Foundations\Core\Traits\DatabaseOpeartions;
 use DateTime;
 use PDO;
 
